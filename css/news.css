@@ -1,0 +1,191 @@
+.navbar{
+		margin-bottom: 0;
+		border:none;
+	}
+	.navbar-inverse{
+		background:#191D3A;
+		height: 60px;
+		border-radius: 0;
+	}
+	.navbar-brand{
+		margin-top: 10px;
+		width:190px;
+		background: url(../img/logo.png) no-repeat;
+		text-align: center;
+	}
+	.navbar-nav>li>a{
+		height: 58px;
+		line-height: 30px;
+		text-align: center;
+	}
+	.navbar-default .navbar-nav>.active>a{
+		background: #252947;		
+	}
+	.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+		background: #252947;
+	}
+	.navbar-inverse .navbar-nav>.english>a:hover{
+		color:#38b774;
+	}
+	.navbar-inverse .navbar-nav>.joinus>a:hover{
+		background:#2ba364; 
+	}			
+	.zhang-myself>li>a{
+		width: 102px;
+		height: 58px;
+		border-right:1px solid #252947;
+	}
+	.joinus{
+		margin-top: 5px;
+		margin-left: 15px;
+	}
+	.jumbotron{
+	padding-bottom: 0;
+	padding-top: 0;
+	margin-bottom: 0;	
+}
+.page-header{
+		margin:28px 0 0px;		
+	}
+	.bacg-img{
+		padding-left: 30px;
+		background: url(http://www.boyaa.com/images/location.png)no-repeat 0 0;
+	}
+.home{
+	display: block;
+	width: 14px;
+	height:20px;
+	background: url(http://www.boyaa.com/images/home.png)no-repeat;
+	position: absolute;
+	top:3px;
+	right:74px;
+}
+.rightIcon{
+	display: inline-block;
+	width: 10px;
+	height: 10px;	
+	background: url(http://www.boyaa.com/images/icon.png)no-repeat 0 -150px;
+}
+.Success{
+	text-align: center;
+	border-left: 1px solid  #dbe1e7;
+	margin-top: 0;	
+}
+.Success span{
+	line-height: 40px;
+	background: url(http://www.boyaa.com/images/arrow.png)no-repeat right center;
+	padding-right: 10px;
+	font-weight:bold;
+}
+.Success a:hover{
+	color:#33b972;
+}
+.Success a{
+	text-decoration: none;
+	color: black;
+}
+.newspic{
+	padding: 0px 120px;
+	text-align: center;
+}
+.news{
+	line-height: 30px;
+	font-weight: bold;
+}
+.news a{
+	text-decoration: none;
+	color: black;	
+}
+.news a:hover{
+	color:#33b972;
+}
+.time{
+	background: url(http://www.boyaa.com/images/icon.png)no-repeat 0 -292px;
+	padding-left: 24px;
+}
+.content{
+	padding-top: 20px;
+	padding-bottom: 5px;
+	text-indent: 40px;
+	line-height: 40px;
+	/*font-size: 16px;*/
+	border-bottom: 1px solid #DBE1E7;
+}
+.newslist{
+	list-style: none;
+	line-height: 40px;
+}
+.newslist li a{
+	color: black;
+	text-decoration: none;
+}
+.pager li>a, .pager li>span{
+	border-radius: 6px;
+	color: black;
+	border: 1px solid #c3cbe3;
+}
+.pager li>a:focus, .pager li>a:hover{
+	background:#8894bb;
+	color: white;
+	border: 0;
+}
+.footer{	
+	color: #3808537;
+	margin-top: 50px;
+}
+.line-1{	
+	display: block;		
+}
+.first-line{
+	color:#6c6e7e;
+	line-height: 40px;
+}
+.first-line a{
+	text-decoration: none;	
+	padding-right: 6px;
+	padding-left: 6px;	
+	color:#6c6e7e;
+}
+.first-line a:hover{
+	color: white;
+}
+#current{
+	background: url(http://www.boyaa.com/images/arrow.png)no-repeat center right;	
+}
+#current a{
+	color:#38b774;
+}
+.iphone{
+	background: url(http://www.boyaa.com/images/pad.png?v1.002)no-repeat -125px 0;
+}
+.android{
+	background: url(http://www.boyaa.com/images/pad.png?v1.002)no-repeat -4px -97px;
+}
+.ipad{
+	background: url(http://www.boyaa.com/images/pad.png?v1.002)no-repeat 0 -199px;
+}
+.pc{
+	background: url(http://www.boyaa.com/images/pad.png?v1.002)no-repeat 0 -295px;
+}
+.tv{
+	background: url(http://www.boyaa.com/images/pad.png?v1.002)no-repeat 0 -602px;
+}
+.list-group-item a i{
+	display:inline-block;
+	height: 41px;
+	width: 34px;	
+	position: absolute;
+	top:20px;
+	left:0px;
+}
+.list-group-item a{	
+	text-decoration: none;	
+	display: block;
+	padding-left: 42px;	
+}
+a:focus, a:hover{
+	color:#444866;
+}
+a{
+	color: #444866;
+}

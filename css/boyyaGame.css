@@ -1,0 +1,238 @@
+.navbar{
+		margin-bottom: 0;
+		border:none;
+	}
+	.navbar-inverse{
+		background:#191D3A;
+		height: 60px;
+		border-radius: 0;
+	}
+	.navbar-brand{
+		margin-top: 10px;
+		width:190px;
+		background: url(../img/logo.png) no-repeat;
+		text-align: center;
+	}
+	.navbar-nav>li>a{
+		height: 58px;
+		line-height: 30px;
+		text-align: center;
+	}
+	.navbar-default .navbar-nav>.active>a{
+		background: #252947;		
+	}
+	.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+		background: #252947;
+	}
+	.navbar-inverse .navbar-nav>.english>a:hover{
+		color:#38b774;
+	}
+	.navbar-inverse .navbar-nav>.joinus>a:hover{
+		background:#2ba364; 
+	}			
+	.zhang-myself>li>a{
+		width: 102px;
+		height: 58px;
+		border-right:1px solid #252947;
+	}
+	.joinus{
+		margin-top: 5px;
+		margin-left: 15px;
+	}
+	.jumbotron{
+	padding-bottom: 0;
+	padding-top: 0;
+	margin-bottom: 0;	
+}
+	.page-header{
+		margin:28px 0 20px;		
+	}
+	.bacg-img{
+		padding-left: 30px;
+		background: url(http://www.boyaa.com/images/location.png)no-repeat 0 -98px;
+	}
+.home{
+	display: block;
+	width: 14px;
+	height:20px;
+	background: url(http://www.boyaa.com/images/home.png)no-repeat;
+	position: absolute;
+	top:3px;
+	right:74px;
+}
+.rightIcon{
+	display: inline-block;
+	width: 10px;
+	height: 10px;	
+	background: url(http://www.boyaa.com/images/icon.png)no-repeat 0 -150px;
+}
+.list-group{
+	border-radius: 0;	
+	box-shadow:none;
+	color: #444866;
+	font-size: 20px;
+}
+.list-group-item:first-child{
+	border-radius: 0;
+}
+.list-group-item:last-child{
+	border-radius: 0;
+}
+.list-group .list-group-item{
+	height: 80px;
+	padding: 0;	
+	border-top:none;
+	border-left: none;
+	border-right: none;	
+	line-height: 80px;
+	margin-bottom:0;
+	background: none;	
+	position: relative;
+}
+#current{
+	background: url(http://www.boyaa.com/images/arrow.png)no-repeat center right;	
+}
+#current a{
+	color:#38b774;
+}
+.iphone{
+	background: url(http://www.boyaa.com/images/pad.png?v1.002)no-repeat -125px 0;
+}
+.android{
+	background: url(http://www.boyaa.com/images/pad.png?v1.002)no-repeat -4px -97px;
+}
+.ipad{
+	background: url(http://www.boyaa.com/images/pad.png?v1.002)no-repeat 0 -199px;
+}
+.pc{
+	background: url(http://www.boyaa.com/images/pad.png?v1.002)no-repeat 0 -295px;
+}
+.tv{
+	background: url(http://www.boyaa.com/images/pad.png?v1.002)no-repeat 0 -602px;
+}
+.list-group-item a i{
+	display:inline-block;
+	height: 41px;
+	width: 34px;	
+	position: absolute;
+	top:20px;
+	left:0px;
+}
+.list-group-item a{	
+	text-decoration: none;	
+	display: block;
+	padding-left: 42px;	
+}
+a:focus, a:hover{
+	color:#444866;
+}
+a{
+	color: #444866;
+}
+.gamesort{
+	display: inline-block;
+	margin-bottom:8px;
+	margin-top:8px;	
+}
+.gamesort:hover{
+	color: #38b774;	
+}
+.gamesort a{
+	text-decoration: none;
+	color: #38b774;	
+}
+.gamesort a span{
+	background: url(http://www.boyaa.com/images/arrow.png)no-repeat right center;
+	padding-right: 10px;
+}
+.appStore{	
+	width: 50%;
+	display:inline-block;
+	height: 36px;
+	text-align:center;		
+	line-height: 36px;
+	font-size: 16px;		
+	border-right: 1px solid #c7d6e5;
+}
+.appStore span{
+	display: inline-block;
+	background: url(http://www.boyaa.com/images/icon.png)no-repeat 0 -347px;
+	padding-left: 33px;
+}
+.thumbnail{
+	background:#f7f7f7;
+}
+.thumbnail:hover{
+	background: #FFFFFF;
+}
+.appStore span:hover{
+	color:#38b774;
+}
+.code{
+	width: 50%;
+	display:inline-block;
+	height: 36px;
+	text-align:center;		
+	line-height: 36px;
+	font-size: 16px;
+	float: right;
+	position: relative;		
+}
+.code span{
+	display: inline-block;
+	background: url(http://www.boyaa.com/images/icon.png)no-repeat 0 -448px;
+	padding-left: 40px;	
+}
+.code span:hover{
+	color:#38b774;		
+}
+.code i{
+	width: 146px;
+	height: 152px;
+	padding-top:10px;
+	text-align: center;
+	background: url(http://www.boyaa.com/images/ewmbg.png)no-repeat;
+	position: absolute;
+	bottom:34px;
+	left:-29px;
+	display: none;
+}
+.code:hover i{
+	display: block;
+}
+.col-md-6{
+	margin: 10px 0;
+}
+.footer{	
+	color: #3808537;
+	margin-top: 50px;
+}
+.line-1{	
+	display: block;		
+}
+.first-line{
+	color:#6c6e7e;
+	line-height: 40px;
+}
+.first-line a{
+	text-decoration: none;	
+	padding-right: 6px;
+	padding-left: 6px;
+	color: #6c6e7e;	
+}
+.first-line a:hover{
+	color: white;
+}
+.back-to-top{
+	display: block;
+	position: fixed;
+	width: 68px;
+	height: 29px;
+	background: url(http://www.boyaa.com/images/top.png)no-repeat 0 -40px;
+	z-index: 888;
+	right: 15px;
+	bottom: 75px;
+}
+.back-to-top:hover{
+	background: url(http://www.boyaa.com/images/top.png)no-repeat 0 0;
+}

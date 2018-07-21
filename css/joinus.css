@@ -1,0 +1,51 @@
+.navbar{
+		margin-bottom: 0;
+		border:none;
+	}
+	.navbar-inverse{
+		background:#191D3A;
+		height: 60px;
+		border-radius: 0;
+	}
+	.navbar-brand{
+		margin-top: 10px;
+		width:190px;
+		background: url(../img/logo.png) no-repeat;
+		text-align: center;
+	}
+	.navbar-nav>li>a{
+		height: 58px;
+		line-height: 30px;
+		text-align: center;
+	}
+	.navbar-default .navbar-nav>.active>a{
+		background: #252947;		
+	}
+	.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+		background: #252947;
+	}
+	.navbar-inverse .navbar-nav>.english>a:hover{
+		color:#38b774;
+	}
+	.navbar-inverse .navbar-nav>.joinus>a:hover{
+		background:#2ba364; 
+	}			
+	.zhang-myself>li>a{
+		width: 102px;
+		height: 58px;
+		border-right:1px solid #252947;
+	}
+	.joinus{
+		margin-top: 5px;
+		margin-left: 15px;
+	}
+	.jumbotron{
+	padding-bottom: 0;
+	padding-top: 0;
+	margin-bottom: 0;	
+}
+.boxOne{
+	width: 333px;
+	height:200px;
+	background: red;
+}

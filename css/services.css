@@ -1,0 +1,135 @@
+.navbar{
+		margin-bottom: 0;
+		border:none;
+	}
+	.navbar-inverse{
+		background:#191D3A;
+		height: 60px;
+		border-radius: 0;
+	}
+	.navbar-brand{
+		margin-top: 10px;
+		width:190px;
+		background: url(../img/logo.png) no-repeat;
+		text-align: center;
+	}
+	.navbar-nav>li>a{
+		height: 58px;
+		line-height: 30px;
+		text-align: center;
+	}
+	.navbar-default .navbar-nav>.active>a{
+		background: #252947;		
+	}
+	.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+		background: #252947;
+	}
+	.navbar-inverse .navbar-nav>.english>a:hover{
+		color:#38b774;
+	}
+	.navbar-inverse .navbar-nav>.joinus>a:hover{
+		background:#2ba364; 
+	}			
+	.zhang-myself>li>a{
+		width: 102px;
+		height: 58px;
+		border-right:1px solid #252947;
+	}
+	.joinus{
+		margin-top: 5px;
+		margin-left: 15px;
+	}
+	.jumbotron{
+	padding-bottom: 0;
+	padding-top: 0;
+	margin-bottom: 0;	
+}
+.page-header{
+		margin:28px 0 0px;		
+	}
+	.bacg-img{
+		height: 24px;
+		line-height:24px;
+		display: block;
+		padding-left: 30px;
+		background: url(http://www.boyaa.com/images/location.png)no-repeat 0 -192px;
+	}
+.home{
+	display: block;
+	width: 14px;
+	height:20px;
+	background: url(http://www.boyaa.com/images/home.png)no-repeat;
+	position: absolute;
+	top:0;
+	right:82px;
+}
+.rightIcon{
+	display: inline-block;
+	width: 10px;
+	height: 10px;	
+	background: url(http://www.boyaa.com/images/icon.png)no-repeat 0 -150px;
+}
+.img-thumbnail, .thumbnail{
+	box-shadow:0;
+}
+.phIcon{
+	width: 38px;
+	height: 68px;
+	padding-right:12px;
+	background: url(http://www.boyaa.com/images/faqicon.png?1002)no-repeat;	
+	margin: 0 auto;
+}
+.lineIcon{
+	width: 60px;
+	height: 68px;
+	padding-right:12px;
+	background: url(http://www.boyaa.com/images/faqicon.png?1002)no-repeat 0 -202px;
+	margin: 0 auto;	
+}
+.emailIcon{
+	width: 60px;
+	height: 68px;
+	padding-right:12px;
+	background: url(http://www.boyaa.com/images/faqicon.png?1002)no-repeat 0 -136px;
+	margin: 0 auto;	
+}
+.caption{
+	text-align: center;	
+}
+.caption img{
+	margin-top: 20px;	
+}
+.caption p,.caption h2{
+	color:#444866;
+}
+.problem{
+	padding-left: 0;
+	padding-right: 0;	
+}
+.thumbnail{
+	border: 1px solid #dbe1e7;
+}
+.problem .thumbnail:hover{
+	background:#f1f1f1;
+	font-weight: bold;
+}
+.footer{	
+	color: #3808537;
+	margin-top: 50px;
+}
+.line-1{	
+	display: block;		
+}
+.first-line{
+	color:#6c6e7e;
+	line-height: 40px;
+}
+.first-line a{
+	text-decoration: none;	
+	padding-right: 6px;
+	padding-left: 6px;	
+	color:#6c6e7e;
+}
+.first-line a:hover{
+	color: white;
+}

@@ -1,0 +1,117 @@
+.navbar{
+		margin-bottom: 0;
+		border:none;
+	}
+	.navbar-inverse{
+		background:#191D3A;
+		height: 60px;
+		border-radius: 0;
+	}
+	.navbar-brand{
+		margin-top: 10px;
+		width:190px;
+		background: url(../img/logo.png) no-repeat;
+		text-align: center;
+	}
+	.navbar-nav>li>a{
+		height: 58px;
+		line-height: 30px;
+		text-align: center;
+	}
+	.navbar-default .navbar-nav>.active>a{
+		background: #252947;		
+	}
+	.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+		background: #252947;
+	}
+	.navbar-inverse .navbar-nav>.english>a:hover{
+		color:#38b774;
+	}
+	.navbar-inverse .navbar-nav>.joinus>a:hover{
+		background:#2ba364; 
+	}			
+	.zhang-myself>li>a{
+		width: 102px;
+		height: 58px;
+		border-right:1px solid #252947;
+	}
+	.joinus{
+		margin-top: 5px;
+		margin-left: 15px;
+	}
+	.jumbotron{
+	padding-bottom: 0;
+	padding-top: 0;
+	margin-bottom: 0;	
+}
+.page-header{
+		margin:28px 0 0px;		
+	}
+	.bacg-img{
+		padding-left: 30px;
+		background: url(http://www.boyaa.com/images/location.png) no-repeat 0 -50px;
+	}
+.home{
+	display: block;
+	width: 14px;
+	height:20px;
+	background: url(http://www.boyaa.com/images/home.png)no-repeat;
+	position: absolute;
+	top:0px;
+	right:148px;
+}
+.rightIcon{
+	display: inline-block;
+	width: 10px;
+	height: 10px;	
+	background: url(http://www.boyaa.com/images/icon.png)no-repeat 0 -150px;
+}
+.list-group{
+	border-radius: 0;	
+	box-shadow:none;
+	color: #444866;
+	font-size: 20px;
+}
+.list-group-item:first-child{
+	border-radius: 0;
+}
+.list-group-item:last-child{
+	border-radius: 0;
+}
+.list-group .list-group-item{
+	height: 80px;
+	padding: 0;	
+	border-top:none;
+	border-left: none;
+	border-right: none;	
+	line-height: 80px;
+	margin-bottom:0;
+	background: none;	
+	position: relative;
+}
+.Article p{
+	text-indent: 30px;
+	margin-bottom:35px;
+	line-height: 30px;
+	font-size: 15px;
+}
+.footer{	
+	color: #3808537;
+	margin-top: 50px;
+}
+.line-1{	
+	display: block;		
+}
+.first-line{
+	color:#6c6e7e;
+	line-height: 40px;
+}
+.first-line a{
+	text-decoration: none;	
+	padding-right: 6px;
+	padding-left: 6px;	
+	color:#6c6e7e;
+}
+.first-line a:hover{
+	color: white;
+}

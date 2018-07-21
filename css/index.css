@@ -1,0 +1,163 @@
+.navbar{
+		margin-bottom: 0;
+		border:none;
+	}
+	.navbar-inverse{
+		background:#191D3A;
+		height: 60px;
+		border-radius: 0;
+	}
+	.navbar-brand{
+		margin-top: 10px;
+		width:190px;
+		background: url(../img/logo.png) no-repeat;
+		text-align: center;
+	}
+	.navbar-nav>li>a{
+		height: 58px;
+		line-height: 30px;
+		text-align: center;
+	}
+	.navbar-default .navbar-nav>.active>a{
+		background: #252947;		
+	}
+	.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+		background: #252947;
+	}
+	.navbar-inverse .navbar-nav>.english>a:hover{
+		color:#38b774;
+	}
+	.navbar-inverse .navbar-nav>.joinus>a:hover{
+		background:#2ba364; 
+	}			
+	.zhang-myself>li>a{
+		width: 102px;
+		height: 58px;
+		border-right:1px solid #252947;
+	}
+	.joinus{
+		margin-top: 5px;
+		margin-left: 15px;
+	}
+.jumbotron{
+	padding-bottom: 0;
+	padding-top: 0;	
+}
+.btn-success{
+	background:#2ba364;
+}
+.item{
+	list-style: none;	
+	/*height: 530px;*/
+}
+/*.item img{
+	height: 100%;
+}*/
+.container-fluid{
+	padding-right: 0;
+	padding-left: 0;
+	position: relative;
+}
+.dots{
+	width:135px;
+	height: 15px;	
+	position: absolute;
+	top: 68%;
+	left: 50%;
+	display: flex;
+	justify-content: space-around;
+}
+.dots span{	
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background: white;
+	opacity: 0.5;
+}
+.dots .circle{
+	opacity: 1;
+}
+.marg50{
+	margin-top:50px;
+}
+.thumbnail{
+	border: none;
+}
+.img-thumbnail, .thumbnail{
+	-webkit-box-shadow:none;
+	box-shadow:none
+}
+.caption h5{
+	text-align: center;
+	font-weight: bold;
+}
+.caption p{
+	text-align: center;
+}
+.caption span{	
+	color: #38b774;
+	padding-right: 11px;
+	background: url(../img/icon.jpg)no-repeat right center;
+}
+.caption:hover{
+	background:#38b774;
+	color: white;
+}
+.caption:hover span{
+	background: url(http://www.boyaa.com/images/arrow_hover.png)no-repeat right center;	
+	color: white;
+}
+.C-line{		
+	height: 18px;
+	border-top:1px solid #dbe1e7;
+	margin-top: 20px;
+}
+.circle-dot{
+	bottom:-3px;	
+}
+.circleBox{
+	width: 0px;
+	height:11px;
+	margin:-6px auto;
+	background:white;
+	text-align: center;
+	padding-left: 50px;	
+}
+.circle-dot .active{
+	background:#2fbc71;
+}
+.circle-dot li{
+	background:#b5c0cb;
+}
+.more-new{
+	top:20%;
+	left: 10%;
+	width: 80px;
+	height: 15px;
+	border-radius: 4px;
+	border: 1px solid #33b972;
+	
+}
+.big-bg{
+	background:url(http://www.boyaa.com/images/indexmainbg.jpg)no-repeat center bottom;
+}
+.footer{	
+	color: #3808537;
+	margin-top: 50px;
+}
+.line-1{	
+	display: block;		
+}
+.first-line{
+	color:#6c6e7e;
+	line-height: 40px;
+}
+.first-line a{
+	text-decoration: none;	
+	padding-right: 6px;
+	padding-left: 6px;	
+	color:#6c6e7e;
+}
+.first-line a:hover{
+	color: white;
+}
