@@ -129,21 +129,34 @@
 .circle-dot li{
 	background:#b5c0cb;
 }
-.more-new{
-	top:20%;
-	left: 10%;
-	width: 80px;
-	height: 15px;
-	border-radius: 4px;
-	border: 1px solid #33b972;
-	
+.more{
+	float: right;
+}
+.more a{
+	display: inline-block;
+	width:64px;
+	height: 26px;
+	border: 1px solid #30bd72;
+	border-radius: 5px;
+	font-size: 14px;
+	text-align: center;
+	line-height: 26px;
+	text-decoration: none;
+	color:#30bd72;
+}
+.more a:hover{
+	background:#30bd72;
+	color: white;
+}
+.more-title{
+	padding: 40px 204px 0 0;
+	height: 70px;
 }
 .big-bg{
 	background:url(http://www.boyaa.com/images/indexmainbg.jpg)no-repeat center bottom;
 }
 .footer{	
-	color: #3808537;
-	margin-top: 50px;
+	color: #3808537;	
 }
 .line-1{	
 	display: block;		
@@ -159,5 +172,86 @@
 	color:#6c6e7e;
 }
 .first-line a:hover{
+	color: white;
+}
+.new-left{
+	width:500px;
+	height: 310px;
+	background: url(http://www.boyaa.com/images/bynewsbg.jpg)no-repeat 0 -10px;	
+}
+.new-right{
+	width:500px;
+	height: 310px;
+	background: url(http://www.boyaa.com/images/byhrbg3.jpg?v1)no-repeat;	
+}
+.newslist{
+	list-style: none;
+	margin-top: 44px;
+	-webkit-padding-start:0;
+}
+ul{
+	-webkit-padding-start:0;
+}
+.newItem{
+	border-bottom: 1px solid #dbe1e7;
+	line-height: 29px;
+	padding: 10px 0;
+}
+.newslist li a{
+	text-decoration: none;
+	color: black;
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.newslist li a:hover{
+	color:#33b972;
+}
+.newslist li span{
+	float: right;
+	color: #afbecf;
+	margin-left: 18px;
+}
+.job{
+	float: left;
+	padding-left: 80px;
+	color: white;
+}
+.job h2{
+	font-size: 28px;
+	font-weight: 700;
+	display: block;
+	line-height: 34px;
+}
+.m2 a:hover{	
+	color: #33B972!important;
+	background: white;
+}
+.post{	
+	padding-top: 30px;
+	padding: 0 175px 0 20px;
+}
+.post h4{
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	color: white;
+	margin-top:44px;
+}
+.postlist{	
+	list-style: none;
+}
+.postlist li{
+	line-height: 30px;
+	border-bottom: 1px solid #6fdea3;
+	height: 39px;
+	padding: 10px 0;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.post a{
+	text-decoration: none;
 	color: white;
 }

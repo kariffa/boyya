@@ -83,11 +83,21 @@
 	padding: 0;	
 	border-top:none;
 	border-left: none;
-	border-right: none;	
-	line-height: 80px;
+	border-right: none;		
 	margin-bottom:0;
 	background: none;	
 	position: relative;
+}
+#current a{
+	display: block;
+	padding: 15px 0;
+	color:14px;
+	text-decoration: none;
+	color: black;
+}
+#current a:hover{
+	color:#38b774;
+	background: url(http://www.boyaa.com/images/arrow.png)no-repeat center right;
 }
 .Article p{
 	text-indent: 30px;
@@ -114,4 +124,12 @@
 }
 .first-line a:hover{
 	color: white;
+}
+#current .active{
+	color:#38b774;
+	background: url(http://www.boyaa.com/images/arrow.png)no-repeat center right;
+}
+#current h4{
+	 margin-bottom: 0;	 
+	 font-weight: bold;
 }

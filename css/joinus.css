@@ -49,3 +49,23 @@
 	height:200px;
 	background: red;
 }
+.footer{	
+	color: #3808537;
+	margin-top: 50px;
+}
+.line-1{	
+	display: block;		
+}
+.first-line{
+	color:#6c6e7e;
+	line-height: 40px;
+}
+.first-line a{
+	text-decoration: none;	
+	padding-right: 6px;
+	padding-left: 6px;	
+	color:#6c6e7e;
+}
+.first-line a:hover{
+	color: white;
+}
